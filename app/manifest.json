@@ -1,0 +1,42 @@
+{
+"name": "Search Crew for Mobile",
+"short_name": "Search Crew",
+"start_url": "https://searchcrew.github.io/app/m/",
+"display": "standalone",
+"description": "Search Search Crew from your mobile device.",
+"lang": "en",
+"dir": "auto",
+"theme_color": "#430179",
+"background_color": "#DCDCDC",
+"orientation": "any",
+"scope": "https://searchcrew.github.io/app/m/",
+"icons": [
+    {
+        "src": "/appIcons/appLogo512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+    },
+    {
+        "src": "/appIcons/appLogo192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+    }
+],
+"screenshots": [
+    {
+        "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+        "sizes": "2880x1800", 
+        "type": "image/png",
+        "description": "A screenshot of the home page"
+    }
+],
+"related_applications": [
+    {
+        "platform":"play",
+        "url": " https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox&hl=en_US&gl=US"
+    }
+],
+"prefer_related_applications": false
+}

@@ -1,0 +1,111 @@
+﻿html {
+    background-color:transparent !important;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    font-family: 'Fira Sans', sans-serif !important;
+}
+div#info {
+	position:fixed;
+	right:0px;
+	bottom:0px;
+	display:inline-block;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjYiLz4KICAgIDxzdG9wIG9mZnNldD0iOTAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNiIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 10%, rgba(0,0,0,0.6) 90%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 10%,rgba(0,0,0,0.6) 90%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 10%,rgba(0,0,0,0.6) 90%,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=0 );
+	border-radius:5px 0 0 0;
+	width:300px;
+	height:200px;
+}
+img#tip {
+	height:24px;
+	width:auto;
+	position:relative;
+	top:7px;
+	right:103px;
+}
+
+img#explore {
+	position:relative;
+	bottom:20px;
+	left:10px;
+}
+
+div#learnmore {
+	height:30px;
+	width:111.82px;
+	background-image:url('images/learnmore-explore.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	position:relative;
+	left:10px;
+	top:10px;
+	transition:0.3s;
+}
+
+div#learnmore:hover {
+	background-image:url('images/learnmore-explore,hover.png');
+}
+
+p#exploretitle {
+	text-align:right;
+	position:relative;
+	right:100px;
+}
+
+p#exploretitle span {
+    display: none;
+}
+
+p#exploretitle:after {
+    content: 'Hello World!';
+}
+
+p#exploretext {
+	width:280px;
+	position:relative;
+	left:8px;
+	top:5px;
+}
+
+p#exploretext span {
+    display: none;
+}
+
+p#exploretext:after {
+    content: 'Explore the origins of the iconic computer programming phrase, "Hello World!".';
+}
+
+p#imgCred {
+    position:relative;
+    top: 10px;
+    left:8px;
+}
+
+p#imgCred span {
+    display:none;
+}
+
+p#imgCred:after {
+    content: 'Slender Studios';
+}
+
+.labelwolink {
+    display:inline-block;
+    color:white !important;
+    font-weight:400;
+    text-decoration:none !important;
+    margin-block-end: 0 !important;
+}
+
+.labelwolink2 {
+    display:block;
+    color:white;
+    font-weight:300;
+    text-decoration:none !important;
+    padding:5px;
+    bottom:10px;
+    margin-block-start:0 !important;
+    margin-block-end:0 !important;
+}

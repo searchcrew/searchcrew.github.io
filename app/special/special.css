@@ -1,0 +1,107 @@
+﻿html {
+    background-color:transparent !important;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    font-family: 'Fira Sans', sans-serif !important;
+}
+div#info {
+	position:fixed;
+	right:0px;
+	bottom:0px;
+	display:inline-block;
+	background-color:rgba(0,0,0,0.6);
+	border-radius:5px 0 0 0;
+	width:300px;
+	height:200px;
+}
+img#tip {
+	height:24px;
+	width:auto;
+	position:relative;
+	top:7px;
+	right:103px;
+}
+
+img#explore {
+	position:relative;
+	bottom:20px;
+	left:10px;
+}
+
+div#learnmore {
+	height:30px;
+	width:111.82px;
+	background-image:url('images/learnmore-explore.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	position:relative;
+	left:10px;
+	top:10px;
+	transition:0.3s;
+}
+
+div#learnmore:hover {
+	background-image:url('images/learnmore-explore,hover.png');
+}
+
+p#exploretitle {
+	text-align:right;
+	position:relative;
+	right:100px;
+}
+
+p#exploretitle span {
+    display: none;
+}
+
+p#exploretitle:after {
+    content: 'Hello World!';
+}
+
+p#exploretext {
+	width:280px;
+	position:relative;
+	left:8px;
+	top:5px;
+}
+
+p#exploretext span {
+    display: none;
+}
+
+p#exploretext:after {
+    content: 'Explore the origins of the iconic computer programming phrase, "Hello World!".';
+}
+
+p#imgCred {
+    position:relative;
+    top: 10px;
+    left:8px;
+}
+
+p#imgCred span {
+    display:none;
+}
+
+p#imgCred:after {
+    content: 'Slender Studios';
+}
+
+.labelwolink {
+    display:inline-block;
+    color:white !important;
+    font-weight:400;
+    text-decoration:none !important;
+    margin-block-end: 0 !important;
+}
+
+.labelwolink2 {
+    display:block;
+    color:white;
+    font-weight:300;
+    text-decoration:none !important;
+    padding:5px;
+    bottom:10px;
+    margin-block-start:0 !important;
+    margin-block-end:0 !important;
+}
