@@ -144,7 +144,7 @@ input#searchbar:focus::placeholder {
 input#submitquery {
     border: none !important;
     background-color: transparent;
-    background-image: url('/m/images/right.png');
+    background-image: url('/app/m/images/right.png');
     background-repeat: no-repeat;
     height:40px;
     width:40px;
@@ -161,7 +161,7 @@ input#submitquery {
 input#submitquery:hover {
     border: none !important;
     background-color: transparent;
-    background-image: url('/m/images/right.png');
+    background-image: url('/app/m/images/right.png');
     background-repeat: no-repeat;
     height:40px;
     width:40px;

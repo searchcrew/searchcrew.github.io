@@ -1,15 +1,15 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 div#headerbar {
-    background-image: url("../images/themes/galaxy.png");
+    background-image: url("/app/m/pages/images/themes/galaxy.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100.5vw;
     height: 63px;
-    float: left;
     box-shadow:0 4px 10px rgba(0, 0, 0, 0.8);
     z-index: 16;
-    position: sticky;
+    position: fixed;
+    top: 0px;
 }
 
 html {
@@ -29,7 +29,7 @@ div.gsc-webResult.gsc-result:hover {
 }
 
 div#graphiclarge {
-	background-image: url("/images/wordMarksmall.png");
+	background-image: url("/app/images/wordMarksmall.png");
 	background-size: 100%;
 	background-repeat:no-repeat;
 	height: 33px;
@@ -43,7 +43,7 @@ div#graphiclarge {
 }
 
 div#graphiclarge:hover {
-	background-image: url("/images/wordMarksmallHover.png");
+	background-image: url("/app/images/wordMarksmallHover.png");
 	cursor: pointer;
 }
 
@@ -78,7 +78,7 @@ input#searchbar:focus::placeholder {
 input#submitquery {
     border: none !important;
     background-color: transparent;
-    background-image: url('/m/images/right.png');
+    background-image: url('/app/m/images/right.png');
     background-repeat: no-repeat;
     height:40px;
     width:40px;
@@ -95,7 +95,7 @@ input#submitquery {
 input#submitquery:hover {
     border: none !important;
     background-color: transparent;
-    background-image: url('/m/images/right.png');
+    background-image: url('/app/m/images/right.png');
     background-repeat: no-repeat;
     height:40px;
     width:40px;
@@ -290,28 +290,6 @@ form#searchform {
     margin: 3px 3px 3px 0;
 }
 
-div#optionsBtn {
-    background-image: url("/images/options.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 36px;
-    width:50px;
-    height:50px;
-    bottom: 1.5px;
-    text-align: right;
-    position: relative;
-    float: right;
-    right:8px;
-    transition: 0.3s;
-}
-
-div#optionsBtn:hover {
-    background-image: url("/images/optionsHover.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 36px;
-}
-
 .gs-result .gs-image, .gs-result .gs-promotion-image {
     border: 0 solid #e2e2e2 !important;
 }
@@ -378,7 +356,7 @@ a.gs-previewVisit {
 
 svg.gs-closeButton {
     fill:transparent;
-    background-image:  url("/m/images/close.png");
+    background-image:  url("/app/m/images/close.png");
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: center;

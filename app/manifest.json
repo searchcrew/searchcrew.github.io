@@ -26,10 +26,28 @@
 ],
 "screenshots": [
     {
-        "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
-        "sizes": "2880x1800", 
+        "src": "https://searchcrew.github.io/app/m/screenshots/index.png",
+        "sizes": "1081x2340", 
         "type": "image/png",
-        "description": "A screenshot of the home page"
+        "description": "A screenshot of the home page."
+    },
+    {
+        "src": "https://searchcrew.github.io/app/m/screenshots/pref.png",
+        "sizes": "1081x2340", 
+        "type": "image/png",
+        "description": "A screenshot of the customize page."
+    },
+    {
+        "src": "https://searchcrew.github.io/app/m/screenshots/personalize.png",
+        "sizes": "1081x2340", 
+        "type": "image/png",
+        "description": "You can customize Search Crew Mobile with themes."
+    },
+    {
+        "src": "https://searchcrew.github.io/app/m/screenshots/about.png",
+        "sizes": "1081x2340", 
+        "type": "image/png",
+        "description": "A screenshot of the about page."
     }
 ],
 "related_applications": [

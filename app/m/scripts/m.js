@@ -1,5 +1,5 @@
 function about() {
-    parent.document.getElementById('bodyIframe').src = '/m/pages/info.html';
+    parent.document.getElementById('bodyIframe').src = '../m/pages/info.html';
     parent.document.getElementById("about").style.backgroundImage = "url('../images/aboutHover.png')"
     parent.document.getElementById("about").style.marginLeft = "10px"
     parent.document.getElementById("about").style.marginRight = "10px"
@@ -13,7 +13,7 @@ function about() {
 };
 
 function home() {
-    parent.document.getElementById('bodyIframe').src = '/m/pages/home.html';
+    parent.document.getElementById('bodyIframe').src = '../m/pages/home.html';
     parent.document.getElementById("about").style.backgroundImage = "url('../images/about.png')"
     parent.document.getElementById("about").style.marginLeft = "6px"
     parent.document.getElementById("about").style.marginRight = "6px"
@@ -27,7 +27,7 @@ function home() {
 };
 
 function customize() {
-    parent.document.getElementById('bodyIframe').src = '/m/pages/pref.html';
+    parent.document.getElementById('bodyIframe').src = '../m/pages/pref.html';
     parent.document.getElementById("about").style.backgroundImage = "url('../images/about.png')"
     parent.document.getElementById("about").style.marginLeft = "6px"
     parent.document.getElementById("about").style.marginRight = "6px"
