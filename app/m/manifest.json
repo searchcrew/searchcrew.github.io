@@ -12,13 +12,13 @@
 "scope": "https://searchcrew.github.io/app/m/",
 "icons": [
     {
-        "src": "/appIcons/appLogo512.png",
+        "src": "/app/m/appIcons/appLogo512.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "maskable"
     },
     {
-        "src": "/appIcons/appLogo192.png",
+        "src": "/app/m/appIcons/appLogo192.png",
         "sizes": "192x192",
         "type": "image/png",
         "purpose": "any"
