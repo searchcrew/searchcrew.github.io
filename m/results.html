@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Crew</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="/CSS/mr.css">
+    <link rel="stylesheet" href="/CSS/mrMoz.css">
+    <link rel="stylesheet" href="/CSS/normalize.css">
+</head>
+<body onload="searchResultsLoad(); deviceCheck();">
+<div style="overflow-x:hidden !important;">
+<div id="headerbar">
+<div id="headergroup">
+<div id="graphiclarge" onclick="location.href='/m/index.html';"></div>
+    <form id="searchform"  name="searchform" onsubmit="return validateForm();" action="results.html" autocomplete="off">
+        <script async src="https://cse.google.com/cse.js?cx=91290fecbc5dd476a"></script>
+	   <input id="searchbar" class="gcse-searchbox-only" name="q" placeholder="Search Here" type="text">
+	   <img id="homer" style="display:block !important;" alt="searchbox" src="/m/images/searchbar.png">
+	   <img id="placeholdericon" alt="Search query goes here." src="images/placeholdericon.png">
+	   <input id="submitquery" name="search" type="submit" value="">
+    </form>
+</div>
+</div>
+<div id="spacer"></div>
+<script async src="https://cse.google.com/cse.js?cx=91290fecbc5dd476a"></script>
+<div class="gcse-searchresults-only">
+<script src="/m/scripts/m.js"></script>
+<script src="/m/scripts/systemresults.js"></script>
+</div>
+</div>
+</body>
+</html>

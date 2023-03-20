@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Crew</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="/CSS/m.css">
+    <link rel="stylesheet" href="/CSS/mMoz.css">
+    <link rel="stylesheet" href="/CSS/normalize.css">
+</head>
+<body onload="clearss();deviceCheck();">
+<div style="overflow-x:hidden !important;">
+<div id="headerbar">
+    <div id="menuSelector" onclick="about()"></div>
+    <img id="sslogo" src="../images/glyph_new.png">
+</div>
+<div id="mOverlay" style="display: none;">
+<div id="socialsWrapper">
+    <a style="display:block;font-size: 25px;" id="socialsTxt" class="label" href="https://slenderstudios.github.io/socials">
+        <img id="social" src="../images/socials.png" alt="socials">
+        Our Socials
+	</a>
+</div>
+<div id="sourceCodeWrapper">
+	<a style="display:block;font-size: 25px;"id="sourceCodeTxt" class="label" href="https://launchpad.net/searchcrew">
+		<img id="github" src="../images/github.png" alt="Cononical Launchpad">
+        Source Code
+	</a>
+</div>
+<div class="divdark"></div>
+	<div id="thanksdiv" style="display:block;">
+		<img id="thanks" src="../images/thanks.png" alt="Thank You!">
+		<p class="labelwolink" style="font-size: 25px;">Thank you for using <br>Search Crew!
+		</p>
+		<p class="labelwolink2" style="font-size: 25px;">Using an open source alternative to Google or Bing substantially contributes towards a decentralized internet. It also helps out Slender Studios by giving us more attention on the internet. Consider checking out our socials.</p>
+		<p class="labelwolink2" style="font-size: 25px;"><br>&copy; Slender Studios 2023 <p>
+	</div>
+</div>
+<div id="searchformwrapper">
+<div class="centered" id="graphiclarge" onclick="location.href='/m/index.html';">
+    <img id="logolarge" style="width: 385.54px; height: auto;" src="../images/wordMark.png">
+</div>
+<form id="searchform" style="display:inline-block;" name="searchform" onsubmit="return validateForm();" action="results.html" autocomplete="off">
+<div class="centered">
+    <div id="formcontents">
+    <div id="excepthomer">
+     <script async src="https://cse.google.com/cse.js?cx=91290fecbc5dd476a"></script>
+	<input id="searchbar" class="gcse-searchbox-only" name="q" placeholder="Search Here" type="text">
+	<img id="placeholdericon" alt="Search query goes here." src="/images/placeholdericon.png">
+	<input id="submitquery" name="search" type="submit" value="">
+    </div>
+    <img id="homer" style="display:block !important;" alt="searchbox" src="/m/images/searchbarlarger.png">
+    </div>
+</div>
+</form>
+</div>
+<div id="desktoppromo" class="centered">
+    <div id="desktoppromocontents">
+        <p style="font-size: 30px;position:relative;bottom: 175px;left: 30px; z-index: 5" class="labelwolinkB">Bespoke Accents</p>
+        <img style="width: auto;height: 200px;position:relative;" src="/m/images/apple_imac_intel_2009.png">
+        <p style="font-size: 20px;position:relative;bottom: 183px;left: 30px;" class="labelwolinkG">Bespoke Accents allow <br>you to customize the <br>color of the headerbar. <br>Conisder visiting <br>Search Crew on your PC <br>to gain access to <br>Bespoke Accents.</p>
+    </div>
+</div>
+<script src="/m/scripts/m.js"></script>
+<script src="/m/scripts/systemhome.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,238 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@-moz-document url-prefix() {
+div#headerbar{
+    background-image: url("/images/themes/galaxy.png");
+	background-position-y: 55px;
+	height:45px;
+	width: 100vw;
+    position:relative;
+    top:-2px;
+    box-shadow:0 4px 10px rgba(0, 0, 0, 0.8);
+    z-index:4;
+}
+
+body#mainbody {
+	font: 100% 'Fira Sans', sans-serif;
+	padding-left: 0 !important;
+	text-decoration: none;
+	text-decoration-color: white;
+	color: #FFFFFF;
+}
+
+div#graphiclarge {
+	background-image: url("../images/wordMark.png");
+	background-size: 385.54px;
+	background-repeat:no-repeat;
+	height: 150px;
+	width: 385.54px;
+	margin-left: auto;
+    margin-right: auto;
+	display:inline-block;
+	position:relative;
+	transition: 0.3s;
+	top:0;
+}
+
+div#graphiclarge:hover {
+	background-image: url("../images/wordMarkHover.png");
+	cursor:pointer;
+}
+
+input#searchbar {
+	height: 20px;
+	width: 300px;
+	border: none !important;
+	appearance: none;
+	border-radius: 0 30px 30px 0;
+	padding: 10px;
+	outline: none;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight:400;
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, 0);
+	position:relative;
+	bottom:-5px;
+	left:50px;
+	display:inline-block;
+	z-index:2;
+}
+
+input#searchbar::placeholder {
+	color:darkgrey;
+}
+
+input#searchbar:focus::placeholder {
+	color: transparent;
+}
+
+input#submitquery {
+	border: none !important;
+	background-color: transparent;
+	background-image: url('../images/go.png');
+	background-repeat: no-repeat;
+	height:45px;
+	width:45px;
+	background-size:100%;
+	position:relative;
+	border-radius: 0 30px 30px 0;
+	-moz-transition: 0.3s;
+	display:inline-block;
+	bottom:99.9px;
+	left:356.5px;
+	z-index:1;
+}
+
+input#submitquery:hover {
+	border: none !important;
+	background-color: transparent;
+	background-image: url('../images/go_hover.png');
+	background-repeat: no-repeat;
+	height:45px;
+	width:45px;
+	background-size:100%;
+	cursor:pointer;
+}
+
+html {
+    background-image:url('../images/specials/helloworld.png');
+    background-position:center;
+    background-size:100%;
+    background-repeat: no-repeat;
+	font-family: 'Fira Sans', sans-serif !important;
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+div#sidebar {
+	background-color: rgba(0,0,0,0.7);
+	height:100vh;
+	width:300px;
+	margin:0;
+	position:relative;
+	left:0;
+    top: -2px;
+	bottom:12px;
+	z-index:3;
+	display:inline-block;
+}
+
+img#github {
+	height:24px;
+	width:auto;
+	position:relative;
+    top:8px;
+    padding:5px 0 0 5px;
+}
+
+img#social {
+	height:24px;
+	width:auto;
+	position:relative;
+    top:6px;
+    padding:5px 0 0 5px;
+}
+
+img#thanks {
+	height:24px;
+	width:auto;
+	padding:5px 0 0 5px;
+	position:relative;
+	top:5px;
+}
+
+.label {
+	display:inline-block;
+	color:white !important;
+	font-weight:400;
+	text-decoration:none !important;
+}
+
+.label:hover {
+	display:block;
+	color:white !important;
+	font-weight:400;
+	text-decoration:underline !important;
+	text-decoration-color:white;
+}
+
+.labelwolink {
+	display:inline-block;
+	color:white !important;
+	font-weight:400;
+	text-decoration:none !important;
+	margin-block-end: 0 !important;
+}
+
+a#socialsTxt {
+    position: relative;
+    left: 0px;
+    top: 0;
+}
+
+.divdark {
+	position: relative;
+	width: 250px;
+	height: 0;
+	border: 1px solid #323232;
+	box-shadow: 0 2px 0 #6B6B6B;
+	top:10px;
+	left:20px;
+}
+
+div#thanksdiv {
+	position:relative;
+	top:10px;
+}
+
+.labelwolink2 {
+	display:block;
+	color:white;
+	font-weight:300;
+	text-decoration:none !important;
+	padding:5px;
+	bottom:10px;
+	margin-block-start:0 !important;
+	margin-block-end:0 !important;
+}
+ img#homer {
+	margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    bottom: 38px;
+}
+
+img#placeholdericon {
+	position:relative;
+	bottom:83px;
+}
+
+form#searchform {
+	position:relative;
+	top:120px;
+    right: 365px;
+    margin: 0;
+    height: 50px;
+}
+
+div#optionsBtn {
+    background-image: url("/images/options.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px;
+    width:50px;
+    height:50px;
+    display: inline-block;
+    bottom: 1.5px;
+    text-align: right;
+    position: relative;
+    float: right;
+    transition: 0.3s;
+}
+
+div#optionsBtn:hover {
+    background-image: url("/images/optionsHover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px;
+}
+}

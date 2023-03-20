@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<meta content="en-us" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Search Crew</title>
+<link rel="icon" type="image/x-icon" href="images/favicon.png">
+<link rel="stylesheet" href="CSS/pref.css">
+<link rel="stylesheet" href="CSS/prefMoz.css">
+<link rel="stylesheet" href="CSS/normalize.css">
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "fttehjp8cw");
+</script>
+</head>
+<body onload="deviceCheckDesktop(); themeReApply()" id="mainbody">
+
+<div id="headerbar">
+    <div id="graphiclarge" onclick="location.href='/index.html';"></div>
+    <form id="searchform"  name="searchform" onsubmit="return validateForm();" action="results.html" autocomplete="off">
+        <script async src="https://cse.google.com/cse.js?cx=91290fecbc5dd476a"></script>
+	   <input id="searchbar" class="gcse-searchbox-only" name="q" placeholder="Search Here" type="text">
+	   <img id="homer" style="display:block !important;" alt="searchbox" src="images/homesearchbox.png">
+	   <img id="placeholdericon" alt="Search query goes here." src="images/placeholdericon.png">
+	   <input id="submitquery" name="search" type="submit" value="">
+    </form>
+    <div id="optionsBtn" onclick="pref()"></div>
+</div>
+
+<script src="m/scripts/m.js"></script>
+<script defer src="scripts/ThemeSelect.js"></script>
+<script defer src="scripts/systemresults.js"></script>
+
+<div id="settings">
+<h1 class="header1">Personalization</h1>
+
+<div class="separater"></div>
+
+<p id="snippet1" style="font-family: 'Fira Sans', sans-serif; font-weight: 400;color: gray;">Change your accent color</p>
+
+<form style="position: relative; bottom: 10px;" autocomplete="on">
+    <select id="themeselector" style="font-family: 'Fira Sans', sans-serif; font-weight: 500;color: black;" name="themeselector" autocomplete="on" onchange="themeApply()">
+        <optgroup style="font-family: 'Fira Sans', sans-serif; font-weight: 300;color: gray;" label="Bespoke Accents">Bespoke Accents</optgroup>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="aluminum">Aluminum</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="strawberry">Strawberry</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="tangerine">Mango</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="dandelion">Dandelion</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="slime">Slime</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="lagoon">Lagoon</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="galaxy" selected="selected">Galaxy (Default)</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="gingerbread">Gingerbread</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="nighttime">Nighttime</option>
+        <optgroup style="font-family: 'Fira Sans', sans-serif; font-weight: 300;color: gray;" label="iPod Themes">iPod Themes</optgroup>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="SilverApple">Silver</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="PinkApple">Pink</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="ProductRedApple">Product (RED)</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="OrangeApple">Orange</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="YellowApple">Yellow</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="GreenApple">Green</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="BlueApple">Blue</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="PurpleApple">Purple</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="SlateApple">Slate</option>
+        <optgroup style="font-family: 'Fira Sans', sans-serif; font-weight: 300;color: gray;" label="Cheesetopia">Cheesetopia</optgroup>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="BlueCheese">Blue Cheese</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="Cheddar">Cheddar</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="ColbyJack">Colby Jack</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="Gouda">Gouda</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="Muenster">Muenster</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="PepperJack">Pepper Jack</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="Provolone">Provolone</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="Swiss">Swiss</option>
+        <option style="font-family: 'Fira Sans', sans-serif; font-weight: 400;" value="WhiteAmerican">White American Cheese</option>
+    </select>
+</form>
+
+<h1 class="header1">Privacy Policy</h1>
+
+<div class="separater"></div>
+
+<p id="snippet2" style="font-family: 'Fira Sans', sans-serif; font-weight: 400;color: gray;">How we value your privacy</p>
+
+<p style="font-family: 'Fira Sans', sans-serif; font-weight: 400;color: black; position: relative; bottom: 10px;">At Slender Studios, we won't do much to collect info from you. At most, other services we use will collect info that we cannot access. Sadly, we have no control over this. We, as a group, will only collect analytics data. If you do not want analytics data to be collected, then thanks for using Search Crew, and see you later! No matter where you go on the web, there is always record of what you did, what you said, where, and when. We really don't value your privacy.</p>
+
+<h1 class="header1">About</h1>
+
+<div class="separater"></div>
+
+<p id="snippet3" style="font-family: 'Fira Sans', sans-serif; font-weight: 400;color: gray;">About Search Crew</p>
+
+<p style="font-family: 'Fira Sans', sans-serif; font-weight: 400;color: black; position: relative; bottom: 10px; width:99vw;">Search Crew is an open-source, light-weight, and retro-styled search engine that utilizes many Google technologies.
+Some feature implementations include Safe Search, a content filtering system that blocks inappropriate search results, and fast, accurate delivery of results for any search query. This makes Search Crew easy to adopt for any Google user. If you
+enjoy the look of the 2010s, then this is the right place to be. Search Crew includes many themes to suit the personality of almost anyone out there, and gives the search engine more things for us to brag about.
+And since we look old, how about find out how well we perform compared to the competitors on older hardware! To learn more about search speeds on older hardware, <a href="/docs/old-hardware-tests">click here!</a> </p>
+
+<div style="width:110px;">
+<a style="font-family: 'Fira Sans', sans-serif; font-weight: 400;color: #2c2c2c;" id="ghpage" href="https://launchpad.net/searchcrew" target="_blank">
+    <div style="width:110px;">
+        Source Code
+        <img class="icon16" style="position: relative; top: 1px;" src="images/glyphology/shortcut.png">
+    </div>
+</a>
+</div>
+
+<div style="width:205px;">
+<a style="font-family: 'Fira Sans', sans-serif; font-weight: 400;color: #2c2c2c;" id="ssweb" href="https://slenderstudios.github.io" target="_blank">
+    <div style="width:205px;">
+        Slender Studios Website
+        <img class="icon16" style="position: relative; top: 1px;" src="images/glyphology/shortcut.png">
+    </div>
+</a>
+</div>
+
+<div style="width:280px;">
+<a style="font-family: 'Fira Sans', sans-serif; font-weight: 400;color: #2c2c2c;" id="sc1" href="https://clicksearchcrew.web.app/default.aspx" target="_blank">
+    <div style="width:280px;">
+        Temporarily access Search Crew 1.x
+        <img class="icon16" style="position: relative; top: 1px;" src="images/glyphology/shortcut.png">
+    </div>
+</a>
+</div>
+</div>
+</body>
+</html>
