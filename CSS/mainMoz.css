@@ -27,10 +27,10 @@ div#graphiclarge {
 	width: 385.54px;
 	margin-left: auto;
     margin-right: auto;
-	display:inline-block;
 	position:relative;
 	transition: 0.3s;
-	top:0;
+	top: 130px;
+	right: 40px;
 }
 
 div#graphiclarge:hover {
@@ -110,8 +110,7 @@ div#sidebar {
 	margin:0;
 	position:relative;
 	left:0;
-    top: -2px;
-	bottom:12px;
+	bottom:18px;
 	z-index:3;
 	display:inline-block;
 }
