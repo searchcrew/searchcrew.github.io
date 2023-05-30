@@ -49,7 +49,7 @@ p#exploretitle span {
 }
 
 p#exploretitle:after {
-    content: 'Hello World!';
+    content: 'Stop Stacking Rocks.';
 }
 
 p#exploretext {
@@ -64,7 +64,7 @@ p#exploretext span {
 }
 
 p#exploretext:after {
-    content: 'Explore the origins of the iconic computer programming phrase, "Hello World!".';
+    content: 'Next time you\0027re on a hike, consider this.';
 }
 
 p#imgCred {
@@ -78,5 +78,5 @@ p#imgCred span {
 }
 
 p#imgCred:after {
-    content: 'Slender Studios';
+    content: 'Schäferle on Pixabay';
 }
