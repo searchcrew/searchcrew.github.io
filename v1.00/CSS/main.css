@@ -5,13 +5,39 @@ div#layer1{
 	background:-webkit-linear-gradient(top,  #4f008f 0%,#35015f 50%,#200039 50%,#4f008f 100%);
 	background:linear-gradient(to bottom,  #4f008f 0%,#35015f 50%,#200039 50%,#4f008f 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f008f', endColorstr='#4f008f',GradientType=0 );
-	height:65px;
+	height:85px;
 	width:1000px;
 	border-radius:0px 0px 10px 10px;
 	position: fixed;
 	margin: 0 auto;
     position: relative;
     box-shadow:0 4px 10px rgba(0, 0, 0, 0.8);	
+}
+
+div#eolNotice {
+	background-image:url('../images/eolNotice.png');
+	background-repeat:no-repeat;
+	background-size: 65%;
+	height:80px;
+	width:1000px;
+	position:relative;
+	top:40px;
+	margin-left:10px;
+}
+
+p#eolNoticeText {
+	padding-top:7px;
+	padding-left:35px;
+}
+
+a#eolNoticeLnk {
+	color:#8E59B9;
+	text-decoration:none;
+}
+
+a#eolNoticeLnk:hover {
+	color:#7F3AB7;
+	text-decoration:underline;
 }
 
 body#mainbody {
@@ -29,7 +55,7 @@ img#graphiclarge.auto-style8 {
 	margin-right:auto; 
 	display:block;
 	position:relative;
-	bottom:-210px;	     
+	bottom:-150px;	     
 }
 
 img#graphiclarge.auto-style8:hover {
@@ -39,7 +65,7 @@ img#graphiclarge.auto-style8:hover {
 	margin-right:auto; 
 	display:block;
 	position:relative;
-	bottom:-210px;
+	bottom:-150px;
 	cursor:pointer;	
 }
 	

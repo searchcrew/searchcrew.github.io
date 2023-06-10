@@ -80,6 +80,7 @@
 }
 .auto-style16 {
 	text-align: center;
+	height:50px;
 }
 .auto-style17 {
 	width: 50px;
@@ -118,6 +119,9 @@
 	<div id="layer2" class="auto-style3">
 		<a class="auto-style20" href="https://slenderstudios.github.io/clickdev">
 		<span class="auto-style19">Click Developer</span></a></div>
+	<div id="eolNotice">
+		<p id="eolNoticeText">Support for the Search Crew 1.15 Experience is coming to an end. <a id="eolNoticeLnk" href="https://slenderstudios.blogspot.com/2023/06/sc1closure.html">Learn More</a></p>
+	</div>
 </div>
 
 

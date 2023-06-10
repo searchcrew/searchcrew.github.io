@@ -8,6 +8,33 @@ html {
 	font-family:'Work Sans', sans-serif;
 }
 
+div#eolNotice {
+	background-image:url('../images/eolNotice.png');
+	background-repeat:no-repeat;
+	background-size: 65%;
+	height:80px;
+	width:1000px;
+	position:relative;
+	top:20px;
+	margin-left:10px;
+}
+
+p#eolNoticeText {
+	padding-top:7px;
+	padding-left:35px;
+	color:white;
+}
+
+a#eolNoticeLnk {
+	color:#8E59B9;
+	text-decoration:none;
+}
+
+a#eolNoticeLnk:hover {
+	color:#7F3AB7;
+	text-decoration:underline;
+}
+
 div.gsc-webResult.gsc-result {
 	border-color: #2c2c2c;
     background-color: #2c2c2c;
