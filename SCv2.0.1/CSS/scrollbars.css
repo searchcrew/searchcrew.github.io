@@ -1,0 +1,36 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #c9c9c9;
+    background: -moz-linear-gradient(left,  #c9c9c9 0%, #e5e5e5 49%, #e5e5e5 49%, #ffffff 49%, #ededed 100%);
+    background: -webkit-linear-gradient(left,  #c9c9c9 0%,#e5e5e5 49%,#e5e5e5 49%,#ffffff 49%,#ededed 100%);
+    background: linear-gradient(to right,  #c9c9c9 0%,#e5e5e5 49%,#e5e5e5 49%,#ffffff 49%,#ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#ededed',GradientType=1 );
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4c4c4c;
+    background: -moz-linear-gradient(left,  #4c4c4c 0%, #2c2c2c 50%, #000000 50%, #000000 50%, #2b2b2b 100%);
+    background: -webkit-linear-gradient(left,  #4c4c4c 0%,#2c2c2c 50%,#000000 50%,#000000 50%,#2b2b2b 100%);
+    background: linear-gradient(to right,  #4c4c4c 0%,#2c2c2c 50%,#000000 50%,#000000 50%,#2b2b2b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#2b2b2b',GradientType=1 );
+    border-radius: 10px;
+    transition:0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #848484;
+    background: -moz-linear-gradient(left,  #848484 0%, #606060 50%, #2c2c2c 50%, #2c2c2c 50%);
+    background: -webkit-linear-gradient(left,  #848484 0%,#606060 50%,#2c2c2c 50%,#2c2c2c 50%);
+    background: linear-gradient(to right,  #848484 0%,#606060 50%,#2c2c2c 50%,#2c2c2c 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#848484', endColorstr='#2c2c2c',GradientType=1 );
+}
+
+::-webkit-scrollbar-thumb:active{
+    background: #b8e1fc;
+    background: -webkit-linear-gradient(left,  #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%);
+    background: linear-gradient(to right,  #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8e1fc', endColorstr='#bdf3fd',GradientType=1 );
+}
