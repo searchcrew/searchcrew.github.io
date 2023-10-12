@@ -6,7 +6,7 @@
 	background-color:rgba(0,0,0,0.6);
 	border-radius:5px 0 0 0;
 	width:300px;
-	height:200px;
+	height:180px;
 }
 img#tip {
 	height:24px;
@@ -49,7 +49,7 @@ p#exploretitle span {
 }
 
 p#exploretitle:after {
-    content: 'Stop Stacking Rocks.';
+    content: '1 Year of Search Crew';
 }
 
 p#exploretext {
@@ -64,7 +64,7 @@ p#exploretext span {
 }
 
 p#exploretext:after {
-    content: 'Next time you\0027re on a hike, consider this.';
+    content: 'As of 10/12/2023, Search Crew has been officially online for one year.';
 }
 
 p#imgCred {
@@ -78,5 +78,5 @@ p#imgCred span {
 }
 
 p#imgCred:after {
-    content: 'Schäferle on Pixabay';
+    content: 'Margo Lipa on Pixabay';
 }

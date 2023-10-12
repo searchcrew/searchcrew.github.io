@@ -1,9 +1,9 @@
 function themeApply() {
 const theme = document.getElementById("themeselector").value;
+const ssLogo = document.getElementById("ss-logo");
     if (theme === "aluminum") {
         localStorage.setItem('theme', 'aluminum');
         document.getElementById("headerbar").style.backgroundImage = "url(images/themes/aluminum.png)";
-        console.log("Theme set to aluminum")
         let selected = document.getElementById('themeselector');
         selected.value = 'aluminum';
     }
@@ -164,11 +164,19 @@ const theme = document.getElementById("themeselector").value;
         document.getElementById("headerbar").style.backgroundImage = "url(images/themes/cheesetopia/whiteAmerican.png)";
         let selected = document.getElementById('themeselector');
         selected.value = 'WhiteAmerican';
+    }
+    //Anniversary
+    if (theme === "ann") {
+        localStorage.setItem('theme', 'ann');
+        document.getElementById("headerbar").style.backgroundImage = "url(images/themes/anniversary/indigo.png)";
+        let selected = document.getElementById('themeselector');
+        selected.value = 'ann';
     }
 }
 
 function themeReApply() {
-const theme = localStorage.getItem('theme')
+const theme = localStorage.getItem('theme');
+const ssLogo = document.getElementById("ss-logo");
     if (theme === "aluminum") {
         localStorage.setItem('theme', 'aluminum');
         document.getElementById("headerbar").style.backgroundImage = "url(images/themes/aluminum.png)";
@@ -230,17 +238,17 @@ const theme = localStorage.getItem('theme')
         let selected = document.getElementById('themeselector');
         selected.value = 'SilverApple';
     }
-    if (theme === "PinkApple") {
-        localStorage.setItem('theme', 'PinkApple');
-        document.getElementById("headerbar").style.backgroundImage = "url(images/themes/appleiPod/pink.png)";
-        let selected = document.getElementById('themeselector');
-        selected.value = 'PinkApple';
-    }
     if (theme === "ProductRedApple") {
         localStorage.setItem('theme', 'ProductRedApple');
         document.getElementById("headerbar").style.backgroundImage = "url(images/themes/appleiPod/productRed.png)";
         let selected = document.getElementById('themeselector');
         selected.value = 'ProductRedApple';
+    }
+    if (theme === "PinkApple") {
+        localStorage.setItem('theme', 'PinkApple');
+        document.getElementById("headerbar").style.backgroundImage = "url(images/themes/appleiPod/pink.png)";
+        let selected = document.getElementById('themeselector');
+        selected.value = 'PinkApple';
     }
     if (theme === "OrangeApple") {
         localStorage.setItem('theme', 'OrangeApple');
@@ -332,5 +340,12 @@ const theme = localStorage.getItem('theme')
         document.getElementById("headerbar").style.backgroundImage = "url(images/themes/cheesetopia/whiteAmerican.png)";
         let selected = document.getElementById('themeselector');
         selected.value = 'WhiteAmerican';
+    }
+    //Anniversary
+    if (theme === "ann") {
+        localStorage.setItem('theme', 'ann');
+        document.getElementById("headerbar").style.backgroundImage = "url(images/themes/anniversary/indigo.png)";
+        let selected = document.getElementById('themeselector');
+        selected.value = 'ann';
     }
 }

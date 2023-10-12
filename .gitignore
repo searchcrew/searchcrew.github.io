@@ -1,0 +1,8 @@
+# Directories to be excluded
+v1.00/
+v2.0.1 Post-launch Version/
+SCv2.0.2-Anniversary-Update/
+
+# Files to be excluded
+
+SCv2.0.2-Anniversary-Update.zip
