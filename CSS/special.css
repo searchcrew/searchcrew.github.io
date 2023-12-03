@@ -49,7 +49,7 @@ p#exploretitle span {
 }
 
 p#exploretitle:after {
-    content: '1 Year of Search Crew';
+    content: 'First Week of Advent';
 }
 
 p#exploretext {
@@ -64,7 +64,7 @@ p#exploretext span {
 }
 
 p#exploretext:after {
-    content: 'As of 10/12/2023, Search Crew has been officially online for one year.';
+    content: 'December 3rd, 2023 marks the start of the First Week of Advent.';
 }
 
 p#imgCred {
@@ -78,5 +78,5 @@ p#imgCred span {
 }
 
 p#imgCred:after {
-    content: 'Margo Lipa on Pixabay';
+    content: 'Kara Gebhardt';
 }
