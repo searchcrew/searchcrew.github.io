@@ -179,4 +179,10 @@ const ssLogo = document.getElementById("ss-logo");
         document.getElementById("headerbar").style.backgroundImage = "url(/images/themes/advent_christmas/adv1.fw.png)";
         ssLogo.src = 'images/ss-logo/dark.fw.png';
     }
+    if (theme === "adv2") {
+        localStorage.setItem('theme', 'adv2');
+        document.getElementById("headerbar").style.backgroundPosition = "0px 0px";
+        document.getElementById("headerbar").style.backgroundImage = "url(/images/themes/advent_christmas/adv2.png)";
+        ssLogo.src = 'images/ss-logo/dark.fw.png';
+    }
 }

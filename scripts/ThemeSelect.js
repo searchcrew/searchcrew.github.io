@@ -208,6 +208,13 @@ const ssLogo = document.getElementById("ss-logo");
         let selected = document.getElementById('themeselector');
         selected.value = 'adv1';
     }
+    if (theme === "adv2") {
+        localStorage.setItem('theme', 'adv2');
+        document.getElementById("headerbar").style.backgroundPosition = "0px 0px";
+        document.getElementById("headerbar").style.backgroundImage = "url(/images/themes/advent_christmas/adv2.png)";
+        let selected = document.getElementById('themeselector');
+        selected.value = 'adv2';
+    }
 }
 
 function themeReApply() {
@@ -419,5 +426,12 @@ const ssLogo = document.getElementById("ss-logo");
         document.getElementById("headerbar").style.backgroundImage = "url(/images/themes/advent_christmas/adv1.fw.png)";
         let selected = document.getElementById('themeselector');
         selected.value = 'adv1';
+    }
+    if (theme === "adv2") {
+        localStorage.setItem('theme', 'adv2');
+        document.getElementById("headerbar").style.backgroundPosition = "0 0";
+        document.getElementById("headerbar").style.backgroundImage = "url(/images/themes/advent_christmas/adv2.png)";
+        let selected = document.getElementById('themeselector');
+        selected.value = 'adv2';
     }
 }

@@ -1,7 +1,7 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @-moz-document url-prefix() {
 div#headerbar {
-    background-image: url("/images/themes/advent_christmas/adv1.fw.png");
+    background-image: url("/images/themes/advent_christmas/adv2.png");
 	height:45px;
 	width: 100vw;
     position:relative;
@@ -93,7 +93,7 @@ input#submitquery:hover {
 }
 
 html {
-    background-image:url('../images/specials/advent/adv1.fw.png');
+    background-image:url('../images/specials/advent/adv2.png');
     background-position:center -100px;
     background-size:100%;
     background-repeat: no-repeat;

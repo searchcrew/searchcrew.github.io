@@ -39,7 +39,7 @@ div#learnmore:hover {
 }
 
 p#exploretitle {
-	text-align:right;
+	text-align:left;
 	position:relative;
 	right:100px;
 }
@@ -49,7 +49,7 @@ p#exploretitle span {
 }
 
 p#exploretitle:after {
-    content: 'First Week of Advent';
+    content: '2nd Week of Advent';
 }
 
 p#exploretext {
@@ -64,7 +64,7 @@ p#exploretext span {
 }
 
 p#exploretext:after {
-    content: 'December 3rd, 2023 marks the start of the First Week of Advent.';
+    content: 'December 10th, 2023 marks the start of the Second Week of Advent.';
 }
 
 p#imgCred {
