@@ -5,7 +5,7 @@ const ssLogo = document.getElementById("ss-logo");
         localStorage.setItem('theme', 'aluminum');
         document.getElementById("headerbar").style.backgroundPosition = "0px 55px";
         document.getElementById("headerbar").style.backgroundImage = "url(images/themes/aluminum.png)";
-        ssLogo.src = 'images/ss-logo/light.fw.png';
+        ssLogo.src = 'images/ss-logo/dark.fw.png';
     }
     if (theme === "strawberry") {
         localStorage.setItem('theme', 'strawberry');
@@ -184,5 +184,11 @@ const ssLogo = document.getElementById("ss-logo");
         document.getElementById("headerbar").style.backgroundPosition = "0px 0px";
         document.getElementById("headerbar").style.backgroundImage = "url(/images/themes/advent_christmas/adv2.png)";
         ssLogo.src = 'images/ss-logo/dark.fw.png';
+    }
+    if (theme === "adv3") {
+        localStorage.setItem('theme', 'adv3');
+        document.getElementById("headerbar").style.backgroundPosition = "0px 0px";
+        document.getElementById("headerbar").style.backgroundImage = "url(/images/themes/advent_christmas/adv3.png)";
+        ssLogo.src = 'images/ss-logo/light.fw.png';
     }
 }
