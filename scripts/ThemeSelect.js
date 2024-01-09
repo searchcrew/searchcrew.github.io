@@ -222,6 +222,21 @@ const ssLogo = document.getElementById("ss-logo");
         let selected = document.getElementById('themeselector');
         selected.value = 'adv3';
     }
+    //Winter
+    if (theme === "papsn") {
+        localStorage.setItem('theme', 'papsn');
+        document.getElementById("headerbar").style.backgroundPosition = "0px 0px";
+        document.getElementById("headerbar").style.backgroundImage = "url(/images/themes/seasonal/winter.fw.png)";
+        let selected = document.getElementById('themeselector');
+        selected.value = 'papsn';
+    }
+    if (theme === "snsc") {
+        localStorage.setItem('theme', 'snsc');
+        document.getElementById("headerbar").style.backgroundPosition = "0px 0px";
+        document.getElementById("headerbar").style.backgroundImage = "url(/images/themes/seasonal/winter_scape.fw.png)";
+        let selected = document.getElementById('themeselector');
+        selected.value = 'snsc';
+    }
 }
 
 function themeReApply() {
@@ -447,5 +462,20 @@ const ssLogo = document.getElementById("ss-logo");
         document.getElementById("headerbar").style.backgroundImage = "url(/images/themes/advent_christmas/adv3.png)";
         let selected = document.getElementById('themeselector');
         selected.value = 'adv3';
+    }
+    //Winter
+    if (theme === "papsn") {
+        localStorage.setItem('theme', 'papsn');
+        document.getElementById("headerbar").style.backgroundPosition = "0px 0px";
+        document.getElementById("headerbar").style.backgroundImage = "url(/images/themes/seasonal/winter.fw.png)";
+        let selected = document.getElementById('themeselector');
+        selected.value = 'papsn';
+    }
+    if (theme === "snsc") {
+        localStorage.setItem('theme', 'snsc');
+        document.getElementById("headerbar").style.backgroundPosition = "0px 0px";
+        document.getElementById("headerbar").style.backgroundImage = "url(/images/themes/seasonal/winter_scape.fw.png)";
+        let selected = document.getElementById('themeselector');
+        selected.value = 'snsc';
     }
 }

@@ -6,7 +6,7 @@
 	background-color:rgba(0,0,0,0.6);
 	border-radius:5px 0 0 0;
 	width:300px;
-	height:180px;
+	height:200px;
 }
 img#tip {
 	height:24px;
@@ -49,7 +49,7 @@ p#exploretitle span {
 }
 
 p#exploretitle:after {
-    content: 'Thrid Week of Advent';
+    content: 'Fun Winter Activities';
 }
 
 p#exploretext {
@@ -64,7 +64,7 @@ p#exploretext span {
 }
 
 p#exploretext:after {
-    content: 'December 17th, 2023 marks the start of the Third Week of Advent.';
+    content: 'Not sure how to occupy yourself this winter? Read about 60 fun things you can do for entertainment.';
 }
 
 p#imgCred {
@@ -78,5 +78,5 @@ p#imgCred span {
 }
 
 p#imgCred:after {
-    content: 'Kara Gebhardt';
+    content: 'Pexels on Pixabay';
 }

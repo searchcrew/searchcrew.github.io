@@ -191,4 +191,17 @@ const ssLogo = document.getElementById("ss-logo");
         document.getElementById("headerbar").style.backgroundImage = "url(/images/themes/advent_christmas/adv3.png)";
         ssLogo.src = 'images/ss-logo/light.fw.png';
     }
+    //Winter
+    if (theme === "papsn") {
+        localStorage.setItem('theme', 'papsn');
+        document.getElementById("headerbar").style.backgroundPosition = "0px 0px";
+        document.getElementById("headerbar").style.backgroundImage = "url(/images/themes/seasonal/winter.fw.png)";
+        ssLogo.src = 'images/ss-logo/light.fw.png';
+    }
+    if (theme === "snsc") {
+        localStorage.setItem('theme', 'snsc');
+        document.getElementById("headerbar").style.backgroundPosition = "0px 0px";
+        document.getElementById("headerbar").style.backgroundImage = "url(/images/themes/seasonal/winter_scape.fw.png)";
+        ssLogo.src = 'images/ss-logo/light.fw.png';
+    }
 }
